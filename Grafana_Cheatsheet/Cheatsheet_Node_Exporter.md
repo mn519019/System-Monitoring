@@ -28,3 +28,8 @@ node_load15 {instance=~"example", zone=~"$zone",env=~"$env"}
 
 ### SystemD Monitoring - Restarting 
 node_systemd_unit_state{ instance=~"example", name="example.service", state="activating", zone=~"$zone",env=~"$env" }
+
+### SystemD Monitoring - Running 
+node_systemd_unit_state{ instance=~"example", name="example.service", state="active", zone=~"$zone",env=~"$env"}
+
+
