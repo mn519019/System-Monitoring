@@ -10,6 +10,8 @@ Feel free to reference them in your dashboard
 - $job = exporter name
 
 ##
+### Metrics Formula
+
 #### Cert Expiry Date
 (probe_ssl_earliest_cert_expiry {monitor="example",env="$env"} -time())/86400 
 
