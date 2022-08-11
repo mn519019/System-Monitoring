@@ -13,6 +13,8 @@ Please use **6742** ID to import projects and customize your Grafana dashboards 
 - $server = local port being used on a server
 
 ##
+### Metrics Formula
+
 #### Postgres Exporter Authentication Status
 pg_up{instance=~"tools-pg.*"} == 1
 
